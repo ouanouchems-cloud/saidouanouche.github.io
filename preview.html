@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saïd OUANOUCHE</title>
+<style>
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: black;
+    color: white;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(black, #111);
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+    letter-spacing: 5px;
+    color: gold;
+    animation: fadeIn 2s ease;
+}
+
+.hero p {
+    color: #bbb;
+    font-size: 20px;
+    margin-top: 10px;
+    animation: fadeIn 3s ease;
+}
+
+.btn {
+    margin-top: 30px;
+    padding: 12px 35px;
+    border: 1px solid gold;
+    color: gold;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background: gold;
+    color: black;
+}
+
+/* SECTIONS */
+section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+h2 {
+    color: gold;
+    margin-bottom: 20px;
+}
+
+p {
+    max-width: 600px;
+    margin: auto;
+    color: #ccc;
+}
+
+/* PHOTO PLACEHOLDER */
+.photo {
+    width: 180px;
+    height: 180px;
+    background: #222;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #777;
+    font-size: 14px;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+/* FOOTER */
+footer {
+    padding: 20px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+
+/* LINKEDIN BUTTON */
+.social-btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 25px;
+    border: 1px solid #0A66C2;
+    color: #0A66C2;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-btn:hover {
+    background: #0A66C2;
+    color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="hero">
+    <h1>SAÏD OUANOUCHE</h1>
+    <p>Élégance • Ambition • Excellence</p>
+    <div class="photo">Photo</div>
+    <a href="#" class="btn">Entrer</a>
+</div>
+
+<section>
+    <h2>À propos</h2>
+    <p>
+        Je suis Saïd OUANOUCHE, animé par une vision claire : 
+        créer, évoluer et construire quelque chose d’exceptionnel.
+    </p>
+</section>
+
+<section>
+    <h2>Vision</h2>
+    <p>
+        Développer une présence forte, inspirer et bâtir une identité unique 
+        dans le monde digital.
+    </p>
+</section>
+
+<section>
+    <h2>Réseaux sociaux</h2>
+    <a href="https://www.linkedin.com/in/tonprofil" target="_blank" class="social-btn">LinkedIn</a>
+</section>
+
+<footer>
+    © 2026 Saïd OUANOUCHE — Tous droits réservés
+</footer>
+
+</body>
+</html>
